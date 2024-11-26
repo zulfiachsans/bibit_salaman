@@ -31,6 +31,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.15
   google_fonts: ^6.2.1
   page_transition: ^2.1.0
   path_provider: ^2.1.5

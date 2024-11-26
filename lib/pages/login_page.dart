@@ -1,7 +1,11 @@
 // ignore_for_file: sort_child_properties_last
 
+import 'package:bibit_salaman/pages/signup.dart';
 import 'package:bibit_salaman/utils/utils.dart';
+import 'package:bibit_salaman/widgets/bottom_navbar.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:page_transition/page_transition.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -93,7 +97,13 @@ class LoginPage extends StatelessWidget {
             // Tombol Masuk
             ElevatedButton(
               onPressed: () {
-                // Aksi tombol masuk
+                Navigator.push(
+                  context,
+                  PageTransition(
+                    type: PageTransitionType.rightToLeft,
+                    child: const BottomNavBar(),
+                  ),
+                );
               },
               child: Text(
                 "Masuk",
@@ -125,6 +135,17 @@ class LoginPage extends StatelessWidget {
                       style: bodythreeSemibold.copyWith(
                         color: basePrimary,
                       ),
+                      // create inkwell
+                      recognizer: TapGestureRecognizer()
+                        ..onTap = () {
+                          Navigator.push(
+                            context,
+                            PageTransition(
+                              type: PageTransitionType.rightToLeft,
+                              child: const SignUpPage(),
+                            ),
+                          );
+                        },
                     ),
                   ],
                 ),
