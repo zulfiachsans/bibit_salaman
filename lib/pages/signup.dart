@@ -2,6 +2,7 @@ import 'package:bibit_salaman/pages/login_page.dart';
 import 'package:bibit_salaman/utils/utils.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:page_transition/page_transition.dart';
 
 class SignUpPage extends StatelessWidget {
@@ -62,9 +63,15 @@ class SignUpPage extends StatelessWidget {
                     ),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  prefixIcon: const Icon(
-                    Icons.person,
-                    color: greyScale400,
+                  prefixIcon: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: SvgPicture.asset(
+                      'assets/ic_person.svg',
+                      width: 24,
+                      height: 24,
+                      // ignore: deprecated_member_use
+                      color: greyScale400,
+                    ),
                   ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -88,9 +95,15 @@ class SignUpPage extends StatelessWidget {
                     ),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  prefixIcon: const Icon(
-                    Icons.credit_card,
-                    color: greyScale400,
+                  prefixIcon: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: SvgPicture.asset(
+                      'assets/ic_personalid.svg',
+                      width: 24,
+                      height: 24,
+                      // ignore: deprecated_member_use
+                      color: greyScale400,
+                    ),
                   ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -114,9 +127,15 @@ class SignUpPage extends StatelessWidget {
                     ),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  prefixIcon: const Icon(
-                    Icons.phone,
-                    color: greyScale400,
+                  prefixIcon: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: SvgPicture.asset(
+                      'assets/ic_call.svg',
+                      width: 24,
+                      height: 24,
+                      // ignore: deprecated_member_use
+                      color: greyScale400,
+                    ),
                   ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -140,7 +159,16 @@ class SignUpPage extends StatelessWidget {
                     ),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  prefixIcon: const Icon(Icons.lock, color: greyScale400),
+                  prefixIcon: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: SvgPicture.asset(
+                      'assets/ic_lock.svg',
+                      width: 24,
+                      height: 24,
+                      // ignore: deprecated_member_use
+                      color: greyScale400,
+                    ),
+                  ),
                   suffixIcon: const Icon(Icons.visibility, color: greyScale400),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -164,7 +192,16 @@ class SignUpPage extends StatelessWidget {
                     ),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  prefixIcon: const Icon(Icons.lock, color: greyScale400),
+                  prefixIcon: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: SvgPicture.asset(
+                      'assets/ic_lock.svg',
+                      width: 24,
+                      height: 24,
+                      // ignore: deprecated_member_use
+                      color: greyScale400,
+                    ),
+                  ),
                   suffixIcon: const Icon(Icons.visibility, color: greyScale400),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),

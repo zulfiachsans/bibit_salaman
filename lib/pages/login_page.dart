@@ -5,6 +5,7 @@ import 'package:bibit_salaman/utils/utils.dart';
 import 'package:bibit_salaman/widgets/bottom_navbar.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:page_transition/page_transition.dart';
 
 class LoginPage extends StatelessWidget {
@@ -61,7 +62,16 @@ class LoginPage extends StatelessWidget {
                   ),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                prefixIcon: const Icon(Icons.phone, color: greyScale400),
+                prefixIcon: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: SvgPicture.asset(
+                    'assets/ic_call.svg',
+                    width: 24,
+                    height: 24,
+                    // ignore: deprecated_member_use
+                    color: greyScale400,
+                  ),
+                ),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -85,7 +95,16 @@ class LoginPage extends StatelessWidget {
                   ),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                prefixIcon: const Icon(Icons.lock, color: greyScale400),
+                prefixIcon: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: SvgPicture.asset(
+                    'assets/ic_lock.svg',
+                    width: 24,
+                    height: 24,
+                    // ignore: deprecated_member_use
+                    color: greyScale400,
+                  ),
+                ),
                 suffixIcon: const Icon(Icons.visibility, color: greyScale400),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12),
