@@ -48,6 +48,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: colorWhite,
       body: _pages[_currentIndex], // Tampilkan halaman berdasarkan indeks
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed, // Tipe tab
