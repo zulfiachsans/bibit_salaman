@@ -9,7 +9,9 @@ class LaporanPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: colorWhite,
         appBar: AppBar(
+          backgroundColor: colorWhite,
           centerTitle: true,
           title: Text(
             'Laporan Transaksi',

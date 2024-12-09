@@ -1,6 +1,6 @@
 import 'package:bibit_salaman/pages/home_page.dart';
 import 'package:bibit_salaman/pages/message.dart';
-import 'package:bibit_salaman/pages/product.dart';
+import 'package:bibit_salaman/pages/product_page.dart';
 import 'package:bibit_salaman/pages/profile.dart';
 import 'package:bibit_salaman/utils/utils.dart';
 import 'package:flutter/material.dart';
@@ -80,6 +80,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         ],
         selectedItemColor: basePrimary, // Warna tab aktif
         unselectedItemColor: greyScale400, // Warna tab tidak aktif
+        backgroundColor: colorWhite,
         showUnselectedLabels: true, // Tampilkan label untuk tab tidak aktif
       ),
     );
