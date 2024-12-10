@@ -1,5 +1,6 @@
 import 'package:bibit_salaman/models/terlaris.dart';
 import 'package:bibit_salaman/utils/utils.dart';
+import 'package:bibit_salaman/widgets/detail_product.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 
@@ -222,77 +223,93 @@ class _ProdukTabsState extends State<ProdukTabs> {
 
                       return Padding(
                         padding: const EdgeInsets.only(bottom: 12.0),
-                        child: Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: MediaQuery.of(context).size.height / 9.5,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(12),
-                            border: Border.all(
-                              color: greyScale200,
-                            ),
-                          ),
-                          child: ListTile(
-                            leading: Container(
-                              padding: const EdgeInsets.only(bottom: 20),
-                              width: MediaQuery.of(context).size.width / 7,
-                              height: MediaQuery.of(context).size.height / 15,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image: AssetImage(
-                                    item.imageUrl ?? "",
-                                  ),
-                                  fit: BoxFit.cover,
-                                ),
-                                borderRadius: BorderRadius.circular(5),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return DetailProduct(terlaris: item);
+                                },
+                              ),
+                            );
+                          },
+                          child: Card(
+                            color: colorWhite,
+                            shadowColor: greyScale100.withOpacity(0.1),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(
+                                10,
+                              ), // Membuat sudut membulat
+                              side: const BorderSide(
+                                color: greyScale200, // Warna border
+                                width: 1, // Ketebalan border
                               ),
                             ),
-                            title: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  item.title ?? "",
-                                  style: bodyfourSemibold.copyWith(
-                                    color: greyScale500,
-                                    fontSize: 16,
+                            elevation: 0,
+                            child: ListTile(
+                              leading: Container(
+                                width: MediaQuery.of(context).size.width / 7,
+                                height: MediaQuery.of(context).size.height / 2,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                      item.imageUrl ?? "",
+                                    ),
+                                    fit: BoxFit.cover,
                                   ),
+                                  borderRadius: BorderRadius.circular(5),
                                 ),
-                                Text(
-                                  "Stok ${item.stok}",
-                                  style: bodysixSemibold.copyWith(
-                                    color: greyScale700,
-                                    fontSize: 12,
+                              ),
+                              title: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    item.title ?? "",
+                                    style: bodyfourSemibold.copyWith(
+                                      color: greyScale500,
+                                      fontSize: 16,
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                            subtitle: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  item.price ?? "",
-                                  style: bodyfourSemibold.copyWith(
-                                    color: basePrimary,
-                                    fontSize: 14,
-                                  ),
-                                ),
-                                const SizedBox(height: 5),
-                                Container(
-                                  //buatkan widthnya menyesuaikan ukuran item.label
-                                  width: item.label!.length * 10.0,
-                                  decoration: BoxDecoration(
-                                    color: greyScale100,
-                                    borderRadius: BorderRadius.circular(100),
-                                  ),
-                                  child: Text(
-                                    textAlign: TextAlign.center,
-                                    item.label ?? "",
-                                    style: bodysixRegular.copyWith(
-                                      color: basePrimary,
+                                  Text(
+                                    "Stok ${item.stok}",
+                                    style: bodysixSemibold.copyWith(
+                                      color: greyScale700,
                                       fontSize: 12,
                                     ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
+                              subtitle: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    item.price ?? "",
+                                    style: bodyfourSemibold.copyWith(
+                                      color: basePrimary,
+                                      fontSize: 14,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 5),
+                                  Container(
+                                    //buatkan widthnya menyesuaikan ukuran item.label
+                                    width: item.label!.length * 10.0,
+                                    decoration: BoxDecoration(
+                                      color: greyScale100,
+                                      borderRadius: BorderRadius.circular(100),
+                                    ),
+                                    child: Text(
+                                      textAlign: TextAlign.center,
+                                      item.label ?? "",
+                                      style: bodysixRegular.copyWith(
+                                        color: basePrimary,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),

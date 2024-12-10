@@ -25,7 +25,7 @@ final List<Terlaris> allData = [
     stok: '60',
     price: 'Rp. 50.000',
     description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet volutpat sapien. Nullam malesuada, risus non sodales dignissim, enim magna sodales libero, vel varius eros lorem non ipsum. Quisque tempus, libero id blandit dignissim, odio sapien porttitor felis, in eleifend massa ligula eget urna. Pellentesque ac dui sit amet lectus feugiat feugiat. Curabitur consequat diam sit amet lectus hendrerit, ac dictum augue suscipit. Integer vulputate tincidunt lorem, nec iaculis tortor rhoncus vel. Phasellus sed libero a neque vestibulum sagittis. Integer sollicitudin dolor vel sem condimentum, vitae pharetra sem viverra. \n Suspendisse potenti. In rhoncus lacinia ipsum. Curabitur vehicula risus ac sollicitudin facilisis. Ut ac tellus vel magna posuere egestas in in urna. Vestibulum scelerisque libero eget elit eleifend, at scelerisque arcu lacinia. Nunc non justo in nisl gravida vestibulum. Phasellus a fermentum metus. Proin tristique urna non nulla sodales, at consectetur urna malesuada. Ut viverra, metus vitae sodales tincidunt, purus lorem dignissim purus, sit amet facilisis metus eros eget est. Aenean sit amet lectus dapibus, vestibulum nisi vitae, tincidunt nulla. Integer tristique augue felis, sed rhoncus mauris aliquam ac.',
     label: 'Buah-buahan',
     isPopular: true,
   ),
@@ -35,7 +35,7 @@ final List<Terlaris> allData = [
     stok: '100',
     price: 'Rp. 20.000',
     description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet volutpat sapien. Nullam malesuada, risus non sodales dignissim, enim magna sodales libero, vel varius eros lorem non ipsum. Quisque tempus, libero id blandit dignissim, odio sapien porttitor felis, in eleifend massa ligula eget urna. Pellentesque ac dui sit amet lectus feugiat feugiat. Curabitur consequat diam sit amet lectus hendrerit, ac dictum augue suscipit. Integer vulputate tincidunt lorem, nec iaculis tortor rhoncus vel. Phasellus sed libero a neque vestibulum sagittis. Integer sollicitudin dolor vel sem condimentum, vitae pharetra sem viverra. \n Suspendisse potenti. In rhoncus lacinia ipsum. Curabitur vehicula risus ac sollicitudin facilisis. Ut ac tellus vel magna posuere egestas in in urna. Vestibulum scelerisque libero eget elit eleifend, at scelerisque arcu lacinia. Nunc non justo in nisl gravida vestibulum. Phasellus a fermentum metus. Proin tristique urna non nulla sodales, at consectetur urna malesuada. Ut viverra, metus vitae sodales tincidunt, purus lorem dignissim purus, sit amet facilisis metus eros eget est. Aenean sit amet lectus dapibus, vestibulum nisi vitae, tincidunt nulla. Integer tristique augue felis, sed rhoncus mauris aliquam ac.',
     label: 'Buah-buahan',
     isPopular: true,
   ),
@@ -45,7 +45,7 @@ final List<Terlaris> allData = [
     stok: '120',
     price: 'Rp. 4.000',
     description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet volutpat sapien. Nullam malesuada, risus non sodales dignissim, enim magna sodales libero, vel varius eros lorem non ipsum. Quisque tempus, libero id blandit dignissim, odio sapien porttitor felis, in eleifend massa ligula eget urna. Pellentesque ac dui sit amet lectus feugiat feugiat. Curabitur consequat diam sit amet lectus hendrerit, ac dictum augue suscipit. Integer vulputate tincidunt lorem, nec iaculis tortor rhoncus vel. Phasellus sed libero a neque vestibulum sagittis. Integer sollicitudin dolor vel sem condimentum, vitae pharetra sem viverra. \n Suspendisse potenti. In rhoncus lacinia ipsum. Curabitur vehicula risus ac sollicitudin facilisis. Ut ac tellus vel magna posuere egestas in in urna. Vestibulum scelerisque libero eget elit eleifend, at scelerisque arcu lacinia. Nunc non justo in nisl gravida vestibulum. Phasellus a fermentum metus. Proin tristique urna non nulla sodales, at consectetur urna malesuada. Ut viverra, metus vitae sodales tincidunt, purus lorem dignissim purus, sit amet facilisis metus eros eget est. Aenean sit amet lectus dapibus, vestibulum nisi vitae, tincidunt nulla. Integer tristique augue felis, sed rhoncus mauris aliquam ac.',
     label: 'Buah-buahan',
     isPopular: true,
   ),
@@ -55,7 +55,7 @@ final List<Terlaris> allData = [
     stok: '200',
     price: 'Rp. 50.000',
     description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet volutpat sapien. Nullam malesuada, risus non sodales dignissim, enim magna sodales libero, vel varius eros lorem non ipsum. Quisque tempus, libero id blandit dignissim, odio sapien porttitor felis, in eleifend massa ligula eget urna. Pellentesque ac dui sit amet lectus feugiat feugiat. Curabitur consequat diam sit amet lectus hendrerit, ac dictum augue suscipit. Integer vulputate tincidunt lorem, nec iaculis tortor rhoncus vel. Phasellus sed libero a neque vestibulum sagittis. Integer sollicitudin dolor vel sem condimentum, vitae pharetra sem viverra. \n Suspendisse potenti. In rhoncus lacinia ipsum. Curabitur vehicula risus ac sollicitudin facilisis. Ut ac tellus vel magna posuere egestas in in urna. Vestibulum scelerisque libero eget elit eleifend, at scelerisque arcu lacinia. Nunc non justo in nisl gravida vestibulum. Phasellus a fermentum metus. Proin tristique urna non nulla sodales, at consectetur urna malesuada. Ut viverra, metus vitae sodales tincidunt, purus lorem dignissim purus, sit amet facilisis metus eros eget est. Aenean sit amet lectus dapibus, vestibulum nisi vitae, tincidunt nulla. Integer tristique augue felis, sed rhoncus mauris aliquam ac.',
     label: 'Buah-buahan',
     isPopular: true,
   ),
@@ -65,7 +65,7 @@ final List<Terlaris> allData = [
     stok: '150',
     price: 'Rp. 50.000',
     description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet volutpat sapien. Nullam malesuada, risus non sodales dignissim, enim magna sodales libero, vel varius eros lorem non ipsum. Quisque tempus, libero id blandit dignissim, odio sapien porttitor felis, in eleifend massa ligula eget urna. Pellentesque ac dui sit amet lectus feugiat feugiat. Curabitur consequat diam sit amet lectus hendrerit, ac dictum augue suscipit. Integer vulputate tincidunt lorem, nec iaculis tortor rhoncus vel. Phasellus sed libero a neque vestibulum sagittis. Integer sollicitudin dolor vel sem condimentum, vitae pharetra sem viverra. \n Suspendisse potenti. In rhoncus lacinia ipsum. Curabitur vehicula risus ac sollicitudin facilisis. Ut ac tellus vel magna posuere egestas in in urna. Vestibulum scelerisque libero eget elit eleifend, at scelerisque arcu lacinia. Nunc non justo in nisl gravida vestibulum. Phasellus a fermentum metus. Proin tristique urna non nulla sodales, at consectetur urna malesuada. Ut viverra, metus vitae sodales tincidunt, purus lorem dignissim purus, sit amet facilisis metus eros eget est. Aenean sit amet lectus dapibus, vestibulum nisi vitae, tincidunt nulla. Integer tristique augue felis, sed rhoncus mauris aliquam ac.',
     label: 'Buah-buahan',
     isPopular: true,
   ),
@@ -75,7 +75,7 @@ final List<Terlaris> allData = [
     stok: '300',
     price: 'Rp. 50.000',
     description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl. Sed euismod, diam sit amet aliquet ultricies, nisl nunc aliquam nunc, vitae aliquam nunc nunc eget nisl.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet volutpat sapien. Nullam malesuada, risus non sodales dignissim, enim magna sodales libero, vel varius eros lorem non ipsum. Quisque tempus, libero id blandit dignissim, odio sapien porttitor felis, in eleifend massa ligula eget urna. Pellentesque ac dui sit amet lectus feugiat feugiat. Curabitur consequat diam sit amet lectus hendrerit, ac dictum augue suscipit. Integer vulputate tincidunt lorem, nec iaculis tortor rhoncus vel. Phasellus sed libero a neque vestibulum sagittis. Integer sollicitudin dolor vel sem condimentum, vitae pharetra sem viverra. \n Suspendisse potenti. In rhoncus lacinia ipsum. Curabitur vehicula risus ac sollicitudin facilisis. Ut ac tellus vel magna posuere egestas in in urna. Vestibulum scelerisque libero eget elit eleifend, at scelerisque arcu lacinia. Nunc non justo in nisl gravida vestibulum. Phasellus a fermentum metus. Proin tristique urna non nulla sodales, at consectetur urna malesuada. Ut viverra, metus vitae sodales tincidunt, purus lorem dignissim purus, sit amet facilisis metus eros eget est. Aenean sit amet lectus dapibus, vestibulum nisi vitae, tincidunt nulla. Integer tristique augue felis, sed rhoncus mauris aliquam ac.',
     label: 'Buah-buahan',
     isPopular: true,
   ),
