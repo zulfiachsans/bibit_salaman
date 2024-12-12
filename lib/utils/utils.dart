@@ -17,7 +17,7 @@ const Color greyScale900 = Color(0xff231E2E);
 
 // Primary
 const Color basePrimary = Color(0xff008A29);
-const Color primary400 = Color(0xff2729FF);
+const Color primary400 = Color(0xff007DE9);
 const Color primary300 = Color(0xff5F60FF);
 const Color primary200 = Color(0xff999AFF);
 const Color primary100 = Color(0xffDFE0FF);

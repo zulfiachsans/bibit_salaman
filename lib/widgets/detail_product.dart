@@ -1,6 +1,5 @@
 import 'package:bibit_salaman/models/terlaris.dart';
 import 'package:bibit_salaman/utils/utils.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -463,6 +462,26 @@ class _DetailProductState extends State<DetailProduct> {
                     'Lihat di Maps >',
                     style: bodysixMedium.copyWith(
                       color: basePrimary,
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  Container(
+                    width: MediaQuery.of(context).size.width,
+                    height: 2,
+                    color: greyScale200,
+                  ),
+                  const SizedBox(height: 20),
+                  Text(
+                    'Harga Produk :',
+                    style: bodyfourMedium.copyWith(
+                      color: greyScale600,
+                    ),
+                  ),
+                  const SizedBox(height: 5),
+                  Text(
+                    '${widget.terlaris.price}/Pcs',
+                    style: bodythreeBold.copyWith(
+                      color: greyScale900,
                     ),
                   ),
                   const SizedBox(height: 30),
