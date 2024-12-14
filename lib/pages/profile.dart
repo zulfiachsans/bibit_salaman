@@ -1,3 +1,4 @@
+import 'package:bibit_salaman/pages/detail_account_page.dart';
 import 'package:bibit_salaman/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -228,41 +229,51 @@ class ProfilePage extends StatelessWidget {
               left: 16,
               right: 16,
             ),
-            child: Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Row(
-                      children: [
-                        Image.asset(
-                          'assets/ic-user.png',
-                          width: 50,
-                          height: 50,
-                        ),
-                        const SizedBox(width: 20),
-                        Text(
-                          'Akun dan Lokasi Toko',
-                          style: bodythreeMedium.copyWith(
-                            color: greyScale900,
+            child: InkWell(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const DetailAccountPage(),
+                  ),
+                );
+              },
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          Image.asset(
+                            'assets/ic-user.png',
+                            width: 50,
+                            height: 50,
                           ),
-                        ),
-                      ],
-                    ),
-                    Image.asset(
-                      'assets/chevron-right.png',
-                      width: 50,
-                      height: 50,
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
-                Container(
-                  width: double.infinity,
-                  height: 1,
-                  color: greyScale200,
-                ),
-              ],
+                          const SizedBox(width: 20),
+                          Text(
+                            'Akun dan Lokasi Toko',
+                            style: bodythreeMedium.copyWith(
+                              color: greyScale900,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Image.asset(
+                        'assets/chevron-right.png',
+                        width: 50,
+                        height: 50,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 10),
+                  Container(
+                    width: double.infinity,
+                    height: 1,
+                    color: greyScale200,
+                  ),
+                ],
+              ),
             ),
           ),
           Padding(

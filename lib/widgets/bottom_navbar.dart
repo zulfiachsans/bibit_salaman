@@ -7,7 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class BottomNavBar extends StatefulWidget {
-  const BottomNavBar({super.key});
+  final int selectedIndex;
+  const BottomNavBar({super.key, this.selectedIndex = 0});
 
   @override
   // ignore: library_private_types_in_public_api
@@ -15,7 +16,13 @@ class BottomNavBar extends StatefulWidget {
 }
 
 class _BottomNavBarState extends State<BottomNavBar> {
-  int _currentIndex = 0; // Indeks halaman aktif
+  late int _currentIndex = 0; // Indeks halaman aktif
+
+  @override
+  void initState() {
+    super.initState();
+    _currentIndex = widget.selectedIndex; // Menggunakan tab yang dipilih
+  }
 
   // Daftar halaman untuk setiap tab
   final List<Widget> _pages = [
